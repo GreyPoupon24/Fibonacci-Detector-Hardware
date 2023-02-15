@@ -1,0 +1,33 @@
+LISTING FOR LOGIC DESCRIPTION FILE: FIBO5.pld                        Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Fri Feb 03 16:24:27 2023
+
+  1:Name     FIBO5 ;
+  2:PartNo   00 ;
+  3:Date     2023-02-03 ;
+  4:Revision 01 ;
+  5:Designer Engineer ;
+  6:Company  UBC ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g16v8 ;
+ 10:
+ 11:
+ 12:/* *************** INPUT PINS *********************/
+ 13:PIN    2 = A                        ; /*                                 */ 
+ 14:PIN    3 = B                         ; /*                                 */ 
+ 15:PIN    4 = C                         ; /*                                 */ 
+ 16:PIN 5 = D                                  ;
+ 17:PIN    6 = E                               ;
+ 18:/* *************** OUTPUT PINS *********************/
+ 19:PIN    19 = F                         ; /*                                 */ 
+ 20:F= (!A & !B & !C) # (!A & !C & !D & !E) # (!A & C & !D & E) # (!B & C & !D & E);
+ 21:
+
+
+
+Jedec Fuse Checksum       (1854)
+Jedec Transmit Checksum   (892a)

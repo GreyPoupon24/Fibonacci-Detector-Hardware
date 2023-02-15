@@ -1,0 +1,22 @@
+#WAVEFORM
+#H Name     FIBO5;
+#H PartNo   00;
+#H Date     2023-02-03;
+#H Revision 01;
+#H Designer Engineer;
+#H Company  UBC;
+#H Assembly None;
+#H Location ;
+#H Device   g16v8;
+#H 
+#H 
+#H ORDER: A, B, C, D, E, F; 
+#H 
+#H 
+#V 0001 *****X
+#E 0021 *
+#E 0021 *
+#E 0021 *
+#E 0021 *
+#E 0021 *
+

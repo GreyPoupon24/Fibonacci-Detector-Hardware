@@ -1,0 +1,25 @@
+# Berkeley PLA format generated using
+#
+# CUPL(WM)        5.0a Serial# 60008009
+# Device          g16v8s  Library DLIB-h-40-9
+# Created         Fri Feb 03 16:24:27 2023
+# Name            FIBO5 
+# Partno          00 
+# Revision        01 
+# Date            2023-02-03 
+# Designer        Engineer 
+# Company         UBC 
+# Assembly        None 
+# Location        
+#
+# Inputs  A B C D 
+#         E F 
+# Outputs F 
+.i 6
+.o 1
+.p 4
+000--- 1
+0-000- 1
+0-101- 1
+-0101- 1
+.end

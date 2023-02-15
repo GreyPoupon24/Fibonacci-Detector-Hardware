@@ -1,0 +1,33 @@
+CSIM(WM): CUPL Simulation Program
+Version 5.0a Serial# 
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+CREATED Fri Feb 03 16:39:33 2023
+
+LISTING FOR SIMULATION FILE: FIBO5.si
+
+   1: Name     FIBO5;
+   2: PartNo   00;
+   3: Date     2023-02-03;
+   4: Revision 01;
+   5: Designer Engineer;
+   6: Company  UBC;
+   7: Assembly None;
+   8: Location ;
+   9: Device   g16v8;
+  10: 
+  11: 
+  12: ORDER: A, B, C, D, E, F; 
+  13: 
+  14: 
+
+===============
+      ABCDEF   
+===============
+0001: *****X
+      ^^^^^
+[0021sa] invalid test value:  *
+[0021sa] invalid test value:  *
+[0021sa] invalid test value:  *
+[0021sa] invalid test value:  *
+[0021sa] invalid test value:  *
+
